@@ -1,0 +1,129 @@
+#body{
+    font-size:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("image1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#box{
+    background-image: none;
+    width: 700px;
+    background-color: rgb(108, 40, 172);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bruno Ace SC', cursive;
+}
+
+#error{
+    font-size: 0.6em;
+    color: rgb(251, 0, 0);
+    margin-top: 10px;
+}
+
+#errore{
+    color: rgb(251, 0, 0);
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+}
+
+form .space{
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.hidden{
+    display: none;
+}
+
+#link{
+    text-decoration: none;
+    color: rgb(4, 4, 142)
+}
+
+#link:hover{
+    color: rgb(0, 0, 255);
+    text-decoration: underline;
+}
+
+#main{
+    font-weight: 600;
+    text-align: center;
+}
+
+#submit{
+    margin-top: 50px;
+}
+
+#title{
+    font-size: 2em;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+@media(max-width: 800px)
+{
+    #box{
+        font-size: 0.8em;
+        width: 400px;
+    }
+
+    #errore{
+        font-size: 0.8em;
+    }
+
+    #form{
+        width: 150px;
+    }
+
+    #size-h4{
+        font-size: 0.7em;
+    }
+
+    #size-h6{
+        margin-top:20px;
+    }
+
+    #submit{
+        margin-top: 30px;
+    }
+}
+
+@media(max-width: 400px)
+{
+    #box{
+        font-size: 0.7em;
+        width: 300px;
+    }
+
+    #errore{
+        font-size: 0.6em;
+    }
+
+    #form{
+        width: 150px;
+    }
+
+    #size-h4{
+        font-size: 0.75em;
+    }
+
+    #size-h6{
+        margin-top:10px;
+    }
+
+    #submit{
+        margin-top: 20px;
+    }
+}
